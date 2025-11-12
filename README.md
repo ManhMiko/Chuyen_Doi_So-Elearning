@@ -3,6 +3,7 @@
 <div align="center">
   <p align="center">
     <img src="logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
+    <img src="LogoAIoTLab.png" alt="DaiNam University Logo" width="200"/>
   </p>
 
 [![Made by DNU](https://img.shields.io/badge/Made%20by-DNU-blue?style=for-the-badge)](https://daihocdainam.edu.vn/)
@@ -242,7 +243,7 @@ Chúng tôi xin chân thành cảm ơn:
   <p>© 2025 Bản quyền thuộc về Nhóm phát triển E-Learning - Đại học Đại Nam</p>
   <p>
     <a href="https://daihocdainam.edu.vn/">
-      <img src="https://daihocdainam.edu.vn/templates/dainamuniversity/images/logo.png" alt="Đại học Đại Nam" width="150">
+      <img src="logoDaiNam.png" alt="Đại học Đại Nam" width="150">
     </a>
   </p>
 </div>

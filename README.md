@@ -331,6 +331,4 @@ lib/
 - ✅ macOS
 - ✅ Linux
 
-## 📄 License
-
-MIT License
+## 📄 End

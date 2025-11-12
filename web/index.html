@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="elearning_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>E-Learning App</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- Firebase SDK - Load BEFORE Flutter -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  
+  <script>
+    // Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDcdLuuXsZuhKieTF-geCHo2CCjXGnhM1A",
+      authDomain: "elearning-app-demo.firebaseapp.com",
+      projectId: "elearning-app-demo",
+      storageBucket: "elearning-app-demo.firebasestorage.app",
+      messagingSenderId: "50004759891",
+      appId: "1:50004759891:web:e31838fb4a904494cebda6"
+    };
+    
+    // Initialize Firebase BEFORE Flutter loads
+    try {
+      firebase.initializeApp(firebaseConfig);
+      console.log("Firebase initialized successfully");
+    } catch (error) {
+      console.error("Firebase initialization error:", error);
+    }
+  </script>
+  
+  <!-- Load Flutter app -->
+  <script src="flutter_bootstrap.js"></script>
+</body>
+</html>

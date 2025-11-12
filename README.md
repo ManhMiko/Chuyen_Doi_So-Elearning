@@ -2,7 +2,7 @@
 
 <div align="center">
   <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/3/3f/Logo_Dai_hoc_Dai_Nam.svg/1200px-Logo_Dai_hoc_Dai_Nam.svg.png" alt="DaiNam University Logo" width="200"/>
+    <img src="logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
   </p>
 
 [![Made by DNU](https://img.shields.io/badge/Made%20by-DNU-blue?style=for-the-badge)](https://daihocdainam.edu.vn/)
